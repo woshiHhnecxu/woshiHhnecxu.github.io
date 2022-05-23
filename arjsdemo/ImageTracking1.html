@@ -38,7 +38,7 @@
     <a-scene arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;" embedded
         renderer="logarithmicDepthBuffer: true;" vr-mode-ui="enabled: false" gesture-detector id="scene">
         <!-- <a-nft type="nft" url="https://woshihhnecxu.github.io/arjsdemo/nft/iset/join_popup" smooth="true" -->
-        <a-nft type="nft" url="https://woshihhnecxu.github.io/arjsdemo/nft/iset5/qx" smooth="true"
+        <a-nft type="nft" url="https://woshihhnecxu.github.io/arjsdemo/nft/iset5/qx2" smooth="true"
             smoothCount="10" smoothTolerance=".01" smoothThreshold="5" raycaster="objects: .clickable" emitevents="true"
             cursor="fuse: false; rayOrigin: mouse;">
             <!-- <a-entity gltf-model="./nft/test.gltf" scale="5 5 5" position="50 150 0" class="clickable" gesture-handler>
@@ -46,13 +46,21 @@
             <a-entity gltf-model="./nft/trex/scene.gltf" scale="5 5 5" position="50 150 0" class="clickable"
                 gesture-handler>
         </a-nft>
+        <a-nft type="nft" url="https://woshihhnecxu.github.io/arjsdemo/nft/iset2/pinball" smooth="true"
+        smoothCount="10" smoothTolerance=".01" smoothThreshold="5" raycaster="objects: .clickable" emitevents="true"
+        cursor="fuse: false; rayOrigin: mouse;">
+        <!-- <a-entity gltf-model="./nft/test.gltf" scale="5 5 5" position="50 150 0" class="clickable" gesture-handler>
+        </a-entity> -->
+        <a-entity gltf-model="./nft/trex/scene.gltf" scale="5 5 5" position="50 150 0" class="clickable"
+            gesture-handler>
+        </a-nft>
         <a-entity camera></a-entity>
     </a-scene>
 </body>
 <script>
     window.addEventListener("arjs-nft-loaded", (event) => {
         // Hide loading overlay
-        console.log("arjs-nft-loaded6")
+        console.log("arjs-nft-loaded6-2")
     });
 </script>
 
